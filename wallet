@@ -1,4 +1,7 @@
-sudo apt update
 wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
+
+# extrak
 tar xf hellminer_cpu_linux.tar.gz
-./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RTh9eEQMyzYmM2dEeUmwpBBeRsoLHJm5ef.adigit -p x --cpu 2
+
+# Runing
+./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RShZQwAobHfLP9mbWEM5WxPaygM7vfvTFG.jurekz -p x --cpu 2
